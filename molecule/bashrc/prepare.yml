@@ -1,8 +1,0 @@
----
-- name: Prepare
-  hosts: all
-  gather_facts: yes
-  tasks:
-
-    - name: "Include common prepare tasks"
-      ansible.builtin.include_tasks: ../prepare.yml

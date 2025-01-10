@@ -1,7 +1,0 @@
----
-- name: Converge
-  hosts: all
-  tasks:
-    - name: "Include bashrc"
-      ansible.builtin.include_role:
-        name: "bashrc"

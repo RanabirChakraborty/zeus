@@ -1,7 +1,0 @@
----
-account:
-  username: jenkins
-  uid: 1000
-  group: jenkins
-  gid: 1000
-  home: "/home/jenkins"

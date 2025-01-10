@@ -1,9 +1,0 @@
----
-- name: Converge
-  hosts: all
-  vars_files:
-    - vars.yml
-  tasks:
-    - name: "Include motd"
-      ansible.builtin.include_role:
-        name: "motd"

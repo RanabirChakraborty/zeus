@@ -1,8 +1,0 @@
----
-- name: Converge
-  hosts: all
-
-  tasks:
-    - name: "Include qualys_fix"
-      ansible.builtin.include_role:
-        name: "qualys_fix"

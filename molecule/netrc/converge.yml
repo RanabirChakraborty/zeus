@@ -1,9 +1,0 @@
----
-- name: Converge
-  hosts: all
-  vars_files:
-    - vars.yml
-  tasks:
-    - name: "Include netrc"
-      ansible.builtin.include_role:
-        name: "netrc"
